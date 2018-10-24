@@ -1,0 +1,120 @@
+
+.phone {
+  margin-left: -80px;
+  margin-top: 40px;
+  width: 30%;
+}
+
+@media screen and (min-width: 768px) {
+  .phone {
+    width: 12%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .phone {
+    width: 11%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .phone {
+    width: 7%;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .phone {
+    width: 7%;
+  }
+}
+
+@media screen and (max-height: 768px) and (max-width: 1024px) {
+  .phone {
+    width: 12%;
+  }
+}
+
+@media screen and (max-height: 414px) and (max-width: 736px) {
+  .phone {
+    width: 13%;
+  }
+}
+
+@media screen and (max-height: 412px) and (max-width: 732px) {
+  .phone {
+    width: 15%;
+  }
+}
+
+@media screen and (max-height: 375px) and (max-width: 667px) {
+  .phone {
+    width: 15%;
+  }
+}
+
+@media screen and (max-height: 360px) and (max-width: 640px) {
+  .phone {
+    width: 15%;
+  }
+}
+
+@media screen and (max-height: 320px) and (max-width: 568px) {
+  .phone {
+    width: 20%;
+  }
+}
+
+.questions-pos {
+  margin-bottom: -40px;
+  margin-top: -40px;
+  width: 70%;
+}
+
+@media screen and (min-width: 768px) {
+  .questions-pos {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .questions-pos {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .questions-pos {
+    width: 22%;
+  }
+}
+
+@media screen and (max-height: 414px) and (max-width: 736px) {
+  .questions-pos {
+    width: 40%;
+  }
+}
+
+@media screen and (max-height: 412px) and (max-width: 732px) {
+  .questions-pos {
+    width: 40%;
+  }
+}
+
+@media screen and (max-height: 375px) and (max-width: 667px) {
+  .questions-pos {
+    width: 40%;
+  }
+}
+
+@media screen and (max-height: 360px) and (max-width: 640px) {
+  .questions-pos {
+    width: 40%;
+  }
+}
+
+@media screen and (max-height: 320px) and (max-width: 568px) {
+  .questions-pos {
+    width: 40%;
+  }
+}

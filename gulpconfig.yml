@@ -123,7 +123,9 @@ javascript:
     # Exclusions: (!exclaim to exclude)
     # Inclusions: (included in JS compile)
     - "!assets/js/test.js" # test js file
-    - "assets/js/searchToggle.js" # Doesn't get compilled into all.min.js
+    - "!assets/js/searchToggle.js" # Doesn't get compilled into all.min.js
+    - "assets/js/lazyLoad.js"
+    - "assets/js/fastpathJs.js"
 
 # Gulp task for main travis JS compile/uglify of all.min.js.
 travisScript:

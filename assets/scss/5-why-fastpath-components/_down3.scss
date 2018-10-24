@@ -1,0 +1,110 @@
+.arrow3 {
+	z-index: 46;
+	position: absolute;
+	left: 41%;
+	margin-top: 205px;
+	align-items: center;
+  justify-content: center;
+	width: 50px;
+	height: 50px;
+	background-color: transparent !important;
+	display: none;
+}
+
+@media screen and (min-width: 360px) {
+	.arrow3 {
+		margin-top: 225px;
+		width: 60px;
+		height: 60px;
+	}
+}
+
+
+@media screen and (min-width: 375px) {
+	.arrow3 {
+		margin-top: 225px;
+		width: 75px;
+		height: 75px;
+	}
+}
+
+@media screen and (min-width: 412px) {
+	.arrow3 {
+		margin-top: 255px;
+		width: 75px;
+		height: 75px;
+	}
+}
+
+
+@media screen and (min-width: 768px) {
+	.arrow3 {
+		margin-top: 225px;
+		left: 43%;
+		width: 80px;
+		height: 80px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.arrow3 {
+		left: 45%;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.arrow3 {
+		margin-top: 205px;
+	}
+}
+
+@media screen and (min-width: 1920px) {
+	.arrow3 {
+		left: 48%;
+		margin-top: 265px;
+		width: 100px;
+		height: 100px;
+	}
+}
+
+@media screen and (min-width: 2880px) {
+	.arrow3 {
+		left: 48%;
+		margin-top: 500px;
+		width: 160px;
+		height: 160px;
+	}
+}
+
+@media screen and (max-height: 414px) and (max-width: 736px) {
+	.arrow3 {
+		left: 43%;
+		margin-top: 125px;
+	}
+}
+
+@media screen and (max-height: 412px) and (max-width: 732px) {
+	.arrow3 {
+		left: 43%;
+		margin-top: 110px;
+	}
+}
+
+@media screen and (max-height: 375px) and (max-width: 667px) {
+	.arrow3 {
+		left: 43%;
+		margin-top: 105px;
+	}
+}
+
+@media screen and (max-height: 360px) and (max-width: 640px) {
+	.arrow3 {
+		margin-top: 100px;
+	}
+}
+
+@media screen and (max-height: 320px) and (max-width: 568px) {
+	.arrow3 {
+		margin-top: 75px;
+	}
+}

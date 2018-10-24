@@ -1,0 +1,73 @@
+.wave {
+  width: 100%;
+  height: auto;
+  z-index: 1039;
+  margin-top: 280px;
+  position: relative;
+}
+
+@media screen and (min-width: 360px) and (max-width: 374px) {
+  .wave {
+    margin-top: 305px
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 411px) {
+  .wave {
+    margin-top: 340px
+  }
+}
+
+@media screen and (min-width: 412px) and (max-width: 480px) {
+  .wave {
+    margin-top: 380px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .wave {
+    margin-top: 670px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .wave {
+    margin-top: 790px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .wave {
+    margin-top: 900px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .wave {
+    margin-top: 1080px;
+  }
+}
+
+@media screen and (min-width: 2880px) {
+  .wave {
+    margin-top: 1900px;
+  }
+}
+
+@media screen and (max-height: 414px) and (max-width: 736px) {
+  .wave {
+    margin-top: 420px;
+  }
+}
+
+@media screen and (max-height: 412px) and (max-width: 732px) {
+  .wave {
+    margin-top: 420px;
+  }
+}
+
+@media screen and (max-height: 375px) and (max-width: 667px) {
+  .wave {
+    margin-top: 390px;
+  }
+}

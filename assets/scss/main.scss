@@ -1,37 +1,39 @@
-// Variables
-@import '0-tools/vars';
+@charset "UTF-8";
 
-// Base items
-@import '1-base/typography';
-@import '1-base/links';
-@import '1-base/buttons';
+@import "0-tools/vars";
+@import "1-base/typography";
+@import "2-global-components/navmenu";
+@import "3-default-components/index-banners";
+@import "3-default-components/wave";
+@import "3-default-components/contentlayout";
+@import "2-global-components/apply";
+@import "2-global-components/more";
+@import "2-global-components/questions";
+@import "2-global-components/bottom-cards";
+@import "2-global-components/footer";
+@import "3-default-components/down";
+@import "4-details-components/infographic";
+@import "4-details-components/details-icons";
+@import "4-details-components/down2";
+@import "4-details-components/what";
+@import "5-why-fastpath-components/youll-get";
+@import "5-why-fastpath-components/headings";
+@import "2-global-components/top-banner2";
+@import "4-details-components/pull-up";
+@import "5-why-fastpath-components/content-padding";
+@import "5-why-fastpath-components/down3";
+@import "3-default-components/video";
 
-// Modular components
-@import '2-modules/header';
-@import '2-modules/footer';
-@import '2-modules/sliders';
-@import '2-modules/latest-news-widget';
-@import '2-modules/local-nav';
-@import '2-modules/events';
-@import '2-modules/fb-widget';
-@import '2-modules/featured-videos';
-@import '2-modules/timeline';
-@import '2-modules/social-icons';
-@import '2-modules/footer';
-@import '2-modules/global-nav';
-@import '2-modules/playlist';
-@import '2-modules/archive';
-@import '2-modules/bios';
-@import '2-modules/error';
+body {
+  background-color: $bgcolor;
+  width: 100%;
+  overflow-x: hidden;
+}
 
-// Layout items
-// @import "3-layout/...";
-@import '3-layout/positioning';
-@import '3-layout/posts';
+div {
+  max-width: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
 
-// Page specific styling
-// @import "4-pages/...";
-@import '4-pages/index/home';
-
-// Internet Exploder fixes
-@import '0-tools/ie-only';
+@import "2-global-components/overrides";

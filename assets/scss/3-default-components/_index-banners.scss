@@ -1,0 +1,212 @@
+.big-banner {
+  height: auto;
+  position: fixed;
+  width: 100%;
+  z-index: -1
+}
+
+.top-banner {
+  background-color: #eeefef;
+  background-image: url(../img/top-banner-mobile_small.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100px;
+  z-index: 9994;
+}
+
+@media screen and (min-width: 375px) and (max-width: 411px) {
+  .top-banner {
+    background-size: cover;
+    height: 120px
+  }
+}
+
+@media screen and (min-width: 412px) and (max-width: 414px) {
+  .top-banner {
+    background-image: url(../img/top-banner-mobile.png);
+    background-size: contain;
+    height: 140px
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 480px) {
+  .top-banner {
+    background-image: url(../img/top-banner-mobile.png);
+    background-size: contain;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .top-banner {
+    background-image: url(../img/top-banner-tablet.png);
+    background-size: contain;
+    height: 320px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .top-banner {
+    background-image: url(../img/top-banner-tablet.png);
+    background-size: contain;
+    height: 250px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .top-banner {
+    background-image: url(../img/top-banner-desktop.png);
+    background-size: contain;
+    height: 220px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .top-banner {
+    height: 280px;
+  }
+}
+
+@media screen and (min-width: 2880px) {
+  .top-banner {
+    height: 400px;
+  }
+}
+
+@media screen and (max-height: 414px) and (max-width: 736px) {
+  .top-banner {
+    height: 120px;
+  }
+}
+
+@media screen and (max-height: 412px) and (max-width: 732px) {
+  .top-banner {
+    height: 100px;
+  }
+}
+
+@media screen and (max-height: 375px) and (max-width: 667px) {
+  .top-banner {
+    height: 100px;
+  }
+}
+
+@media screen and (max-height: 360px) and (max-width: 640px) {
+  .top-banner {
+    height: 100px;
+  }
+}
+
+@media screen and (max-height: 320px) and (max-width: 568px) {
+  .top-banner {
+    height: 110px;
+  }
+}
+
+.hero {
+  background-image: url(../img/hero_mobile_small.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  height: 240px;
+  margin-top: -20px;
+  z-index: 9993;
+}
+
+@media screen and (min-width: 360px) and (max-width: 374px) {
+  .hero {
+    background-size: cover;
+    height: 270px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 411px) {
+  .hero {
+    background-image: url(../img/hero_mobile.jpg);
+    background-size: cover;
+    height: 280px;
+  }
+}
+
+@media screen and (min-width: 412px) and (max-width: 413px) {
+  .hero {
+    background-image: url(../img/hero_mobile.jpg);
+    background-size: cover;
+    height: 310px;
+  }
+}
+
+@media screen and (min-width: 414px) and (max-width: 480px) {
+  .hero {
+    background-image: url(../img/hero_mobile.jpg);
+    background-size: contain;
+    height: 310px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .hero {
+    background-image: url(../img/hero_tablet.jpg);
+    background-size: cover;
+    height: 560px;
+    margin-top: -50px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .hero {
+    background-image: url(../img/hero_tablet.jpg);
+    background-size: cover;
+    height: 750px;
+    margin-top: -90px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .hero {
+    background-image: url(../img/hero_desktop.jpg);
+    background-size: cover;
+    height: 980px;
+    margin-top: -90px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .hero {
+    height: 1140px;
+    margin-top: -150px;
+  }
+}
+@media screen and (min-width: 2880px) {
+  .hero {
+    height: 1800px;
+    margin-top: -240px;
+  }
+}
+
+@media screen and (max-height: 412px) and (max-width: 732px) {
+  .hero {
+    height: 520px;
+  }
+}
+
+@media screen and (max-height: 375px) and (max-width: 667px) {
+  .hero {
+    height: 510px;
+    margin-top: -50px;
+  }
+}
+
+@media screen and (max-height: 360px) and (max-width: 640px) {
+  .hero {
+    height: 490px;
+    margin-top: -50px;
+  }
+}
+
+@media screen and (max-height: 320px) and (max-width: 568px) {
+  .hero {
+    height: 430px;
+    margin-top: -45px;
+  }
+}

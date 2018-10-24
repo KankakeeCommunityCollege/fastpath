@@ -1,0 +1,72 @@
+.youll-get {
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .youll-get {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .youll-get {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .youll-get {
+    width: 60%;
+  }
+}
+
+@media screen and (max-height: 414px) and (max-width: 736px) {
+  .youll-get {
+    width: 30%;
+    margin-top: -30px;
+  }
+}
+
+@media screen and (max-height: 412px) and (max-width: 732px) {
+  .youll-get {
+    width: 30%;
+    margin-top: -30px;
+  }
+}
+
+@media screen and (max-height: 375px) and (max-width: 667px) {
+  .youll-get {
+    width: 30%;
+    margin-top: -30px;
+  }
+}
+
+@media screen and (max-height: 360px) and (max-width: 640px) {
+  .youll-get {
+    width: 30%;
+    margin-top: -30px;
+  }
+}
+
+@media screen and (max-height: 320px) and (max-width: 568px) {
+  .youll-get {
+    width: 30%;
+    margin-top: -30px;
+  }
+}
+
+.top-pad-tablet {
+  margin-top: 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .top-pad-tablet {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .top-pad-tablet {
+    padding-top: 20px;
+  }
+}

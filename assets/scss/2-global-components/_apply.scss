@@ -1,0 +1,84 @@
+
+.apply-pos {
+  margin-top: -40px;
+  margin-bottom: -20px;
+  margin-left: -40px;
+  overflow-y: hidden;
+  width: 70%;
+  z-index: 9994;
+}
+
+@media screen and (min-width: 375px) {
+  .apply-pos {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .apply-pos {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .apply-pos {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .apply-pos {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .apply-pos {
+    width: 60%;
+  }
+}
+
+@media screen and (max-height: 414px) and (max-width: 736px) {
+  .apply-pos {
+    width: 40%;
+  }
+}
+
+@media screen and (max-height: 412px) and (max-width: 732px) {
+  .apply-pos {
+    width: 40%;
+  }
+}
+
+@media screen and (max-height: 375px) and (max-width: 667px) {
+  .apply-pos {
+    width: 40%;
+  }
+}
+
+@media screen and (max-height: 360px) and (max-width: 640px) {
+  .apply-pos {
+    width: 40%;
+  }
+}
+
+@media screen and (max-height: 320px) and (max-width: 568px) {
+  .apply-pos {
+    width: 40%;
+  }
+}
+
+.no-scroll {
+  overflow-y: hidden;
+}
+
+.btn-color {
+  background-color: $button-color;
+  &:hover {
+    background-color: $btn-hover
+  }
+}
+
+.fp-shadow {
+  filter: drop-shadow(0 .5rem 1rem rgba(0,0,0,.15));
+}

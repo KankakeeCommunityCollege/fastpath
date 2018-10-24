@@ -1,0 +1,115 @@
+.content-marg {
+  margin-top: -90px;
+  z-index: 9995;
+  position: relative;
+  background-color: $bgcolor;
+}
+
+@media screen and (min-width: 768px) {
+  .content-marg {
+    margin-top: -220px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .content-marg {
+    margin-top: -250px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .content-marg {
+    margin-top: -370px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .content-marg {
+    margin-top: -440px;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .content-marg {
+    margin-top: -460px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .content-marg {
+    margin-top: -500px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .content-marg {
+    margin-top: -560px;
+  }
+}
+
+@media screen and (min-width: 2880px) {
+  .content-marg {
+    margin-top: -650px;
+  }
+}
+
+@media screen and (max-height: 414px) and (max-width: 736px) {
+  .content-marg {
+    margin-top: -210px;
+  }
+}
+
+@media screen and (max-height: 375px) and (max-width: 667px) {
+  .content-marg {
+    margin-top: -200px;
+  }
+}
+
+@media screen and (max-height: 360px) and (max-width: 640px) {
+  .content-marg {
+    margin-top: -180px;
+  }
+}
+
+@media screen and (max-height: 320px) and (max-width: 568px) {
+  .content-marg {
+    margin-top: -160px;
+  }
+}
+
+
+.back-white {
+  background-color: $bgcolor !important;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.col-lg-4 {
+  margin: 0;
+  padding: 0;
+}
+
+.col-lg-2 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}

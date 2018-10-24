@@ -1,0 +1,212 @@
+/* don't display the checkbox */
+.full-chk {
+	display: none;
+}
+
+
+/* container object for the hamburger */
+.full-cntr {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 8px;
+	left: 10px;
+	top: 10px;
+	border: 2px solid #0f3b63;
+	border-radius: 50%;
+	background-color: #ffffff;
+	box-shadow: 0px 1px 2px 0px #444444;
+	z-index: 9999;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+	.full-cntr {
+	width: 40px;
+	height: 40px;
+	left: 3px;
+	top: 10px;
+	}
+}
+
+.full-chk:checked + .full-cntr {
+	background-color: #009fab;
+	border-color: #ffffff;
+}
+
+	@media (min-width: 550px) {
+		.full-cntr {
+			top: 8px;
+		}
+	}
+
+
+/* spans are the cntr that turn from a hamburger to an x */
+.full-span {
+	position: absolute;
+	left: 12px;
+	margin-top: 13px;
+	width: 34px;
+	height: 3px;
+	background-color: #0f3b63;
+	z-index: 300;
+	transform: rotate(0deg);
+	transform-origin: left center;
+
+	transition: background-color 0.3s ease-out 0s,
+		opacity 0.3s ease-out 0.1s,
+		transform 0.2s ease-out 0s,
+		width 0.2s ease-out 0s,
+		left 0.2s ease-out 0s;
+}
+
+@media screen and (max-width: 480px) {
+	.full-span {
+	position: absolute;
+	left: 6px;
+	margin-top: 5px;
+	width: 24px;
+	height: 3px;
+	}
+}
+
+.full-chk:checked + .full-cntr > .full-span {
+	background-color: #ffffff;
+	margin-left: 10px
+}
+
+@media screen and (max-width: 480px) {
+	.full-chk:checked + .full-cntr > .full-span {
+		margin-left: 0px;
+	}
+}
+
+	.full-span:nth-child(1) {
+		top: 4px;
+	}
+
+.full-chk:checked + .full-cntr > .full-span:nth-child(1) {
+	transform: rotate(45deg);
+	width: 23px;
+	left: 11px;
+}
+
+.full-span:nth-child(2) {
+	top: 12px;
+}
+
+.full-chk:checked + .full-cntr > .full-span:nth-child(2) {
+	opacity: 0;
+	width: 30px;
+
+	transition: opacity 0.1s ease-out 0s;
+}
+
+.full-span:nth-child(3) {
+	top: 20px;
+}
+
+.full-chk:checked + .full-cntr > .full-span:nth-child(3) {
+	transform: rotate(-45deg);
+	width: 23px;
+	left: 11px;
+}
+
+
+/* style for a nav element, the full-screen menu  */
+.full-nav {
+	position: fixed;
+	top: 0%;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	background-color: #148caa;
+	opacity: .95 !important;
+	z-index: 9996;
+
+	transition: opacity 0.3s ease-out 0s,
+		z-index 0s ease-out 0.3s;
+}
+
+.full-chk:checked ~ .full-nav {
+	opacity: 1;
+	z-index: 9997;
+
+	transition: opacity 0.3s ease-out 0s;
+}
+
+
+/* unordered list inside nav element or .full-nav */
+/* make position relative to help vertically align menu */
+.full-nav-ul {
+	position: relative;
+	height: 100%;
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	list-style-type: none;
+}
+
+
+/* for vertically aligning our menu */
+.full-nav-cntr {
+	position: absolute;
+	top: 48%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	transform: translate(0%, -50%);
+}
+
+
+/* give the mouse cursor a signal */
+.full-nav-hltd {
+	padding: 5px 10px 5px 10px;
+
+}
+
+.full-nav-hltd:hover {
+	background-color: #0f3b63;
+	border-radius: 8px;
+	text-decoration: none !important;
+	padding: 10px 20px 10px 20px;
+}
+
+
+/* undecorate links */
+.full-nav-a, .full-nav-a:visited, .full-nav-a:active {
+	text-decoration: none !important;
+	color: #ffffff;
+}
+
+/* main  area */
+.full-main {
+	width: 100%;
+	margin: 10px 0px 20px 0px;
+	padding: 0px;
+	background-color: #ffffff;
+	z-index: 0;
+}
+
+
+/* adjusted content area */
+.full-content {
+	width: 90%;
+	max-width: 400px;
+	margin: 30px auto 70px auto;
+}
+
+@media (min-width: 600px) {
+	.full-content {
+		width: 80%;
+		max-width: 450px;
+		margin: 50px auto 70px auto;
+	}
+}
+
+.noshow {
+	visibility: hidden;
+}
+
+.site-nav {
+	z-index: 9998;
+}

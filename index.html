@@ -1,18 +1,52 @@
 ---
 layout: default
-baseurl: ''
+baseurl: ""
 title: KCC
-description: ''
+description: "Earn a transfer degree in 2 years. Kankakee Community College's Fast Path program takes the guesswork out of college so you can focus on being successful."
 ---
 
-<main class="position__offset-fixed-nav">
-  <div class="container text-center" style="background-color:#bada55; margin-top: 200px;">
-    <div class="row">
-      <div class="col">
-        <div class="jumbotron" style="background-color:#bada55;">
-          <h1 style="font-size:72px;text-transform:uppercase;">Hello World!</h1>
-        </div>
-      </div>
-    </div>
+<h1 class="site-h1">KCC Fast Path</h1>
+<!-- Internet Explorer upgrade warning. Ditch ie already, please. -->
+<!--[if lt IE 8]>
+      <div data-alert class="alert-box alert radius" class="browsehappy">Please <a href="http://browsehappy.com/">upgrade your browser</a>. <a href="#" class="close">&times;</a></div>
+<![endif]-->
+<div class="container-fluid">
+  <!-- Top banner and hero banner -->
+  {% include index-banner.html %}
+  <!-- Down arrow section -->
+  <div class="down">
+    {% include down-arrow.svg %}
   </div>
-</main>
+  <!-- Wave SVG Graphic -->
+  <div>
+    <img src="{{ page.baseurl }}assets/img/wave.svg" alt="KCC wave design from KCC logo" class="wave">
+  </div>
+  <section class="content-marg">
+
+    <h2 class="bgcolor text-center">Earn&#160;a&#160;transfer&#160;degree in&#160;2&#160;years!</h2><br>
+
+    <h3 class="emerald text-center">We’ve taken the guesswork out of college so you can focus on being successful.</h3><br>
+
+    <p class="home">Fast Path is offered at the Miner South Extension Center in Watseka. With a predictable schedule, you’ll know class is always at the same time on the same days throughout the length of the program. That’s right. You attend classes only 2 days per week for about 3 hours per day. A new class begins every 8-weeks.</p><br>
+
+  </section>
+  <section class="back-white">
+  <!-- Calls to action with icon buttons -->
+    <div class="row back-white">
+      <div class="col-lg-2 back-white"></div>
+      {% include apply.html %}
+      {% include more.html %}
+      <div class="col-lg-2 back-white"></div>
+    </div>
+    <div class="row back-white">
+      {% include questions.html %}
+    </div>
+  </section>
+  <section class="video-container">
+    {% include video.html %}
+  </section>
+  <section class="card-set">
+    {% include bottom-cards.html %}
+  </section>
+  <input type="hidden" id="refreshed" value="no">
+</div>

@@ -1,0 +1,97 @@
+.top-banner2 {
+  background-color: #eeefef;
+  background-image: url(../img/top-banner-mobile_small.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 106px;
+  z-index: 9994;
+}
+
+@media screen and (min-width: 375px) and (max-width: 411px) {
+  .top-banner2 {
+    background-size: cover;
+    height: 120px;
+  }
+}
+
+@media screen and (min-width: 412px) and (max-width: 414px) {
+  .top-banner2 {
+    background-image: url(../img/top-banner-mobile.png);
+    background-size: contain;
+    height: 150px
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 480px) {
+  .top-banner2 {
+    background-image: url(../img/top-banner-mobile.png);
+    background-size: contain;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .top-banner2 {
+    background-image: url(../img/top-banner-tablet.png);
+    background-size: contain;
+    height: 320px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .top-banner2 {
+    background-image: url(../img/top-banner-tablet.png);
+    background-size: contain;
+    height: 250px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .top-banner2 {
+    background-image: url(../img/top-banner-desktop.png);
+    background-size: contain;
+    height: 220px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .top-banner2 {
+    height: 280px;
+  }
+}
+
+@media screen and (min-width: 2880px) {
+  .top-banner2 {
+    height: 400px;
+  }
+}
+
+@media screen and (max-height: 414px) and (max-width: 736px) {
+  .top-banner2 {
+    height: 120px;
+  }
+}
+
+@media screen and (max-height: 412px) and (max-width: 732px) {
+  .top-banner2 {
+    height: 100px;
+  }
+}
+
+@media screen and (max-height: 375px) and (max-width: 667px) {
+  .top-banner2 {
+    height: 100px;
+  }
+}
+
+@media screen and (max-height: 360px) and (max-width: 640px) {
+  .top-banner2 {
+    height: 100px;
+  }
+}
+
+@media screen and (max-height: 320px) and (max-width: 568px) {
+  .top-banner2 {
+    height: 110px;
+  }
+}

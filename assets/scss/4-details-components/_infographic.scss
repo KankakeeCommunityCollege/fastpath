@@ -1,0 +1,94 @@
+.infographic {
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 412px) {
+  .infographic {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .infographic {
+    width: 60%;
+    margin-top: -40px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .infographic {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .infographic {
+    width: 28%;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .infographic {
+    width: 23%;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 2880px) {
+  .infographic {
+    width: 25%;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 2880px) {
+  .infographic {
+    width: 25%;
+  }
+}
+
+@media screen and (max-height: 768px) and (max-width: 1024px) {
+  .infographic {
+    width: 40%;
+  }
+}
+
+@media screen and (max-height: 414px) and (max-width: 736px) {
+  .infographic {
+    width: 25%;
+  }
+}
+
+@media screen and (max-height: 412px) and (max-width: 732px) {
+  .infographic {
+    width: 25%;
+  }
+}
+
+@media screen and (max-height: 375px) and (max-width: 667px) {
+  .infographic {
+    width: 25%;
+  }
+}
+
+@media screen and (max-height: 360px) and (max-width: 640px) {
+  .infographic {
+    width: 25%;
+  }
+}
+
+@media screen and (max-height: 360px) and (max-width: 640px) {
+  .infographic {
+    width: 35%;
+    margin-top:  -10px;
+  }
+}
+
+@media screen and (max-height: 320px) and (max-width: 568px) {
+  .infographic {
+    width: 40%;
+    margin-top:  -20px;
+  }
+}
