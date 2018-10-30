@@ -1,10 +1,10 @@
 .what-pos {
-  width: 60%;
+  width: 70%;
 }
 
 @media screen and (min-width: 375px) {
   .what-pos {
-    width: 50%;
+    width: 60%;
   }
 }
 
@@ -16,19 +16,19 @@
 
 @media screen and (min-width: 1024px) {
   .what-pos {
-    width: 70%;
+    width: 80%;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .what-pos {
-    width: 50%;
+    width: 60%;
   }
 }
 
 @media screen and (max-height: 414px) and (max-width: 736px) {
   .what-pos {
-	  width: 33%;
+    width: 33%;
   }
 }
 
