@@ -6,15 +6,17 @@ description: "Earn a transfer degree in 2 years. Kankakee Community College's Fa
 ---
 
 <h1 class="site-h1">Fast Path - More Details</h1>
-<div class="container-fluid">
+<div class="container-fluid container-fluid__no-pad">
   <!-- Top banner and hero banner -->
   {% include top-banner.html %}
 
   <!-- Down arrow section -->
+  <!--
   <div class="down">
-    {% include down-arrow2.svg %}
   </div>
-
+  -->
+</div>
+<div class="container">
   <div class="row">
     <div class="col-lg-12 text-center">
       <h1 class="details-h1">More details</h1>
@@ -45,7 +47,7 @@ description: "Earn a transfer degree in 2 years. Kankakee Community College's Fa
       <img src="{{ page.baseurl }}assets/img/placeholder.png" data-src="{{ page.baseurl }}assets/img/sample-courses.png" alt="Icon of an apple." class="tight-marg">
       <h2 class="intro2">Master Academic Plan</h2>
       <p class="details-p">Fast Path includes the most popular courses for Associate in Arts students.</p>
-        <p class="details-p line-spacing push-right">
+        <p class="details-p push-right">
           <a href="#" class="button btn btn-primary button-text" data-toggle="modal" data-target="#secModal">View Plan</a>  for the Miner&#160;South Extension&#160;Center</p>
         </p>
     </div>
@@ -79,9 +81,10 @@ description: "Earn a transfer degree in 2 years. Kankakee Community College's Fa
       <div class="col-lg-2"></div>
     </div>
   </section>
+</div>
 
   <section class="card-set">
-    {% include bottom-cards.html %}
+    {% include bottom-cards2.html %}
   </section>
 </div>
 <!-- Miner South Extension Center Master Academic Plan modal -->
@@ -102,6 +105,4 @@ description: "Earn a transfer degree in 2 years. Kankakee Community College's Fa
       <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
     </div>
   </div>
-
-</div>
 </div>

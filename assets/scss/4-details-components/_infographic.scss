@@ -12,7 +12,6 @@
 @media screen and (min-width: 768px) {
   .infographic {
     width: 60%;
-    margin-top: -40px;
   }
 }
 
@@ -82,13 +81,11 @@
 @media screen and (max-height: 360px) and (max-width: 640px) {
   .infographic {
     width: 35%;
-    margin-top:  -10px;
   }
 }
 
 @media screen and (max-height: 320px) and (max-width: 568px) {
   .infographic {
     width: 40%;
-    margin-top:  -20px;
   }
 }
