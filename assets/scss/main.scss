@@ -26,14 +26,6 @@
 
 body {
   background-color: $bgcolor;
-  width: 100%;
-  overflow-x: hidden;
-}
-
-div {
-  max-width: 100%;
-  width: 100%;
-  overflow-x: hidden;
 }
 
 @import "2-global-components/overrides";

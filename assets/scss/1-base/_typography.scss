@@ -1,8 +1,8 @@
 .bgcolor {
   font-family: 'Roboto', sans-serif;
-  font-size: 2.2em;
+  font-size: 1.6rem;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   color: $whitefont;
   background-color: $fp-emerald;
   padding-top: 10px;
@@ -41,11 +41,13 @@
 
 .emerald {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.35rem;
   font-weight: 600;
   letter-spacing: 1px;
   color: $fp-emerald;
   line-height: 1.2;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -102,7 +104,7 @@ p.home {
 
 .intro2 {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.7em;
+  font-size: 1.4rem;
   font-weight: 600;
   letter-spacing: 1px;
   color: $fp-emerald;
@@ -170,7 +172,7 @@ p.home {
 
 .intro-p {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.3em;
+  font-size: 1.2rem;
   font-weight: 600;
   letter-spacing: 1px;
   color: black;
@@ -199,7 +201,7 @@ p.home {
 
 .gold {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.3em;
+  font-size: 1.2rem;
   font-weight: 600;
   letter-spacing: 1px;
   color: $fp-orange;
@@ -262,7 +264,7 @@ p.home {
 
 .get-started-h1 {
   font-family: 'Roboto', sans-serif;
-  font-size: 2.3em;
+  font-size: 2rem;
   font-weight: 600;
   letter-spacing: 2px;
   color: white;
@@ -302,7 +304,7 @@ a.nowrap {
 
 .engagement-card-headline {
   font-family: 'Roboto', sans-serif;
-  font-size: 2.1em;
+  font-size: 1.8rem;
   font-weight: 600;
   letter-spacing: 1px;
   color: black;
@@ -321,6 +323,7 @@ a.nowrap {
   font-weight: 400;
   color: black;
   line-height: 1.2;
+  min-height: 6rem;
 }
 
 @media screen and (min-width: 1920px) {
