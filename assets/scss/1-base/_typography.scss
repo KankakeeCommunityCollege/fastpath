@@ -135,7 +135,7 @@ p.home {
 
 .intro4 {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.45rem;
+  font-size: 1.3rem;
   font-weight: 600;
   letter-spacing: 1px;
   color: $fp-emerald;
@@ -150,19 +150,7 @@ p.home {
 
 @media screen and (min-width: 1280px) {
   .intro4 {
-    font-size: 1.4em;
-  }
-}
-
-@media screen and (min-width: 1920px) {
-  .intro4 {
-    font-size: 1.8em;
-  }
-}
-
-@media screen and (min-width: 2880px) {
-  .intro4 {
-    font-size: 2em;
+    font-size: 1.35rem;
   }
 }
 
@@ -299,10 +287,11 @@ a.nowrap {
 
 .details-h1 {
   font-family: 'Roboto', sans-serif;
-  font-size: 2em;
+  font-size: 1.8rem;
   font-weight: 600;
   color: $fp-emerald;
   line-height: 1.2;
+  margin-top: 5px;
 }
 
 @media screen and (min-width: 2880px) {
@@ -313,7 +302,7 @@ a.nowrap {
 
 .intro3 {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 600;
   color: $fp-emerald;
   line-height: 1.2;
@@ -347,7 +336,6 @@ a.nowrap {
 
 .details-p {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.3em;
   font-weight: 400;
   color: black;
   line-height: 1.2;
@@ -389,7 +377,6 @@ a.nowrap {
 
 .why-p {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.3em;
   font-weight: 400;
   color: black;
   line-height: 1.2;
