@@ -79,8 +79,12 @@
   }
 }
 
-.engagement-card:hover .img-marg,
-.engagement-card:focus .img-marg {
+.bottom-cards__img--wrapper {
+  overflow: hidden;
+}
+
+.bottom-cards__wrapper:hover .img-marg,
+.bottom-cards__wrapper:focus .img-marg {
   -webkit-transform: scale(1.1, 1.1);
   -ms-transform: scale(1.1, 1.1);
   transform: scale(1.1, 1.1);
