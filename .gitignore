@@ -46,3 +46,6 @@ adobe/*
 
 # Yarn error log
 yarn-error.log
+
+# Jekyll 4's caching dir
+.jekyll-cache/
