@@ -126,6 +126,7 @@ javascript:
     - "!assets/js/searchToggle.js" # Doesn't get compilled into all.min.js
     - "assets/js/lazyLoad.js"
     - "assets/js/fastpathJs.js"
+    - "assets/js/copyrightDate.js"
 
 # Gulp task for main travis JS compile/uglify of all.min.js.
 travisScript:
