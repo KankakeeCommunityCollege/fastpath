@@ -1,6 +1,6 @@
 // Lazy load images
 // ex. <img data-src="/path/to/image.jpg" alt="">
-$(document).ready(function(){
+function lazyLoad() {
   (function() {
     [].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
       img.setAttribute('src', img.getAttribute('data-src'));
@@ -9,4 +9,6 @@ $(document).ready(function(){
       };
     });
   })();
-});
+}
+
+export default lazyLoad;

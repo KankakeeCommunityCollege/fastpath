@@ -1,6 +1,6 @@
-document.addEventListener('DOMContentLoaded', function() {
-  const COPYRIGHT_SPAN_ID = 'copyrightDate';
+const COPYRIGHT_SPAN_ID = 'copyrightDate';
 
+function copyrightDate() {
   if ( ! document.getElementById(COPYRIGHT_SPAN_ID) )
     return;
 
@@ -9,4 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
   const year = today.getFullYear();
 
   copyrightSpanElement.innerHTML = year;
-});
+}
+
+export default copyrightDate;
