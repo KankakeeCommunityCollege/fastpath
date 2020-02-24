@@ -32,20 +32,14 @@ _site
 .sass-cache
 .jekyll-metadata
 
-# Ignore node modules
+# Nodejs Stuffs
+## NPM lock-files can cause cross-platform (win/linux/mac) issues
+package-lock.json
+## Ignore node modules
 node_modules/
 
 # Ignore gem lock to avoid mac/windows discrepencies
 Gemfile.lock
-
-# Ignore adobe directory containing working illustrator, photoshop,
-assets/adobe/
-assets/adobe/*
-/adobe/
-adobe/*
-
-# Yarn error log
-yarn-error.log
 
 # Jekyll 4's caching dir
 .jekyll-cache/
