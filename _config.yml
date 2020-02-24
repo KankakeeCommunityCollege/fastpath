@@ -1,5 +1,7 @@
 title: "Kankakee Community College"
-google_analytics_key: UA-4328282-19
+url: https://fastpath.kcc.edu
+google-tag_key: GTM-NLMXJPP
+siteUrl: https://fastpath.kcc.edu
 collections:
   posts:
     output: false
