@@ -7,7 +7,7 @@
 
 .top-banner {
   background-color: #eeefef;
-  background-image: url(../img/top-banner-mobile_small.png);
+  background-image: url(/assets/img/top-banner-mobile_small.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -24,7 +24,7 @@
 
 @media screen and (min-width: 412px) and (max-width: 414px) {
   .top-banner {
-    background-image: url(../img/top-banner-mobile.png);
+    background-image: url(/assets/img/top-banner-mobile.png);
     background-size: contain;
     height: 140px
   }
@@ -32,14 +32,14 @@
 
 @media screen and (min-width: 415px) and (max-width: 480px) {
   .top-banner {
-    background-image: url(../img/top-banner-mobile.png);
+    background-image: url(/assets/img/top-banner-mobile.png);
     background-size: contain;
   }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .top-banner {
-    background-image: url(../img/top-banner-tablet.png);
+    background-image: url(/assets/img/top-banner-tablet.png);
     background-size: contain;
     height: 320px;
   }
@@ -47,7 +47,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .top-banner {
-    background-image: url(../img/top-banner-tablet.png);
+    background-image: url(/assets/img/top-banner-tablet.png);
     background-size: contain;
     height: 250px;
   }
@@ -55,7 +55,7 @@
 
 @media screen and (min-width: 1025px) {
   .top-banner {
-    background-image: url(../img/top-banner-desktop.png);
+    background-image: url(/assets/img/top-banner-desktop.png);
     background-size: contain;
     height: 220px;
   }
@@ -104,7 +104,7 @@
 }
 
 .hero {
-  background-image: url(../img/hero_mobile_small.jpg);
+  background-image: url(/assets/img/hero_mobile_small.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top;
@@ -122,7 +122,7 @@
 
 @media screen and (min-width: 375px) and (max-width: 411px) {
   .hero {
-    background-image: url(../img/hero_mobile.jpg);
+    background-image: url(/assets/img/hero_mobile.jpg);
     background-size: cover;
     height: 280px;
   }
@@ -130,7 +130,7 @@
 
 @media screen and (min-width: 412px) and (max-width: 413px) {
   .hero {
-    background-image: url(../img/hero_mobile.jpg);
+    background-image: url(/assets/img/hero_mobile.jpg);
     background-size: cover;
     height: 310px;
   }
@@ -138,7 +138,7 @@
 
 @media screen and (min-width: 414px) and (max-width: 480px) {
   .hero {
-    background-image: url(../img/hero_mobile.jpg);
+    background-image: url(/assets/img/hero_mobile.jpg);
     background-size: contain;
     height: 310px;
   }
@@ -146,7 +146,7 @@
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .hero {
-    background-image: url(../img/hero_tablet.jpg);
+    background-image: url(/assets/img/hero_tablet.jpg);
     background-size: cover;
     height: 560px;
     margin-top: -50px;
@@ -155,7 +155,7 @@
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .hero {
-    background-image: url(../img/hero_tablet.jpg);
+    background-image: url(/assets/img/hero_tablet.jpg);
     background-size: cover;
     height: 750px;
     margin-top: -90px;
@@ -164,7 +164,7 @@
 
 @media screen and (min-width: 1025px) {
   .hero {
-    background-image: url(../img/hero_desktop.jpg);
+    background-image: url(/assets/img/hero_desktop.jpg);
     background-size: cover;
     height: 980px;
     margin-top: -90px;
